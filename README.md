@@ -9,6 +9,7 @@ This project trains and evaluates deep learning models for **binary image classi
 ```
 .
 ├── notebook.ipynb              # Main notebook with training, evaluation, and visualization
+├── dataset.py                  # Defines dataset for DataLoader, allowing it to be parallelized on MacOS
 ├── models/                     # Trained models (.pt)
 ├── graphs/                     # Saved plots
 ├── requirements.txt            # Dependencies
